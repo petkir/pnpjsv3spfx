@@ -17,11 +17,56 @@
           "manifest": "./src/webparts/simpleSample/SimpleSampleWebPart.manifest.json"
         }
       ]
+    },
+    "simple-sample-hooks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/simpleSampleHooks/SimpleSampleHooksWebPart.js",
+          "manifest": "./src/webparts/simpleSampleHooks/SimpleSampleHooksWebPart.manifest.json"
+        }
+      ]
+    },
+    "service-scope-sample-hooks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/serviceScopeSampleHooks/ServiceScopeSampleHooksWebPart.js",
+          "manifest": "./src/webparts/serviceScopeSampleHooks/ServiceScopeSampleHooksWebPart.manifest.json"
+        }
+      ]
+    },
+    "extention-app-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/extentionAppCustomizer/ExtentionAppCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/extentionAppCustomizer/ExtentionAppCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "extention-list-command-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/extentionListCommand/ExtentionListCommandCommandSet.js",
+          "manifest": "./src/extensions/extentionListCommand/ExtentionListCommandCommandSet.manifest.json"
+        }
+      ]
+    },
+    "extention-field-customizer-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/extentionFieldCustomizer/ExtentionFieldCustomizerFieldCustomizer.js",
+          "manifest": "./src/extensions/extentionFieldCustomizer/ExtentionFieldCustomizerFieldCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "ServiceScopeSampleWebPartStrings": "lib/webparts/serviceScopeSample/loc/{locale}.js",
-    "SimpleSampleWebPartStrings": "lib/webparts/simpleSample/loc/{locale}.js"
+    "SimpleSampleWebPartStrings": "lib/webparts/simpleSample/loc/{locale}.js",
+    "SimpleSampleHooksWebPartStrings": "lib/webparts/simpleSampleHooks/loc/{locale}.js",
+    "ServiceScopeSampleHooksWebPartStrings": "lib/webparts/serviceScopeSampleHooks/loc/{locale}.js",
+    "ExtentionAppCustomizerApplicationCustomizerStrings": "lib/extensions/extentionAppCustomizer/loc/{locale}.js",
+    "ExtentionListCommandCommandSetStrings": "lib/extensions/extentionListCommand/loc/{locale}.js",
+    "ExtentionFieldCustomizerFieldCustomizerStrings": "lib/extensions/extentionFieldCustomizer/loc/{locale}.js"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "spfx-react-servicescope",
+  "name": "spfx-react-pnpjsv3",
   "version": "0.0.1",
   "private": true,
   "main": "lib/index.js",
@@ -18,7 +18,11 @@
     "@pnp/sp": "^3.0.0-v3nightly.20211017",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "@microsoft/decorators": "1.13.0",
+    "@microsoft/sp-dialog": "1.13.0",
+    "@microsoft/sp-application-base": "1.13.0",
+    "@microsoft/sp-listview-extensibility": "1.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

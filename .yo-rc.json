@@ -8,6 +8,7 @@
     "libraryId": "19645e8f-056a-4ee5-9e2f-94f0a215e1aa",
     "packageManager": "npm",
     "isDomainIsolated": false,
-    "componentType": "webpart"
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
   }
 }
