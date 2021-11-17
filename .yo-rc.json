@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.13.0",
+    "libraryName": "spfx-react-servicescope",
+    "libraryId": "19645e8f-056a-4ee5-9e2f-94f0a215e1aa",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
