@@ -1,10 +1,14 @@
-# spfx-react-servicescope
+# spfx react pnpjsv3
 
 ## Summary
 
 Short summary on functionality and used technologies.
 
-[picture of the solution in action, if possible]
+Different Webpart implementation with pnpjs v3
+
+## How to start with your SPFx Dev Project
+
+[Version 3 Hub] https://github.com/pnp/pnpjs/issues/1636
 
 ## Used SharePoint Framework Version
 
@@ -19,20 +23,20 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> node v12 /v14
+> SPFx v1.13
 
 ## Solution
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+react-pnpjsv3 | Peter Paul Kirschner ([@petkir_at](https://twitter.com/petkir_at))
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.0|November 17, 2021|Initial release
 
 ## Disclaimer
 
@@ -56,9 +60,13 @@ Description of the extension that expands upon high-level summary above.
 
 This extension illustrates the following concepts:
 
-- topic 1
-- topic 2
-- topic 3
+- simpleSample
+- serviceScopeSample
+- simpleSampleHooks (TODO)
+- serviceScopeSampleHooks (TODO)
+- extentionAppCustomizer (TODO)
+- extentionListCommand (TODO)
+- extentionFieldCustomizer (TODO)
 
 > Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
 
